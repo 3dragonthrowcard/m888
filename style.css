@@ -1,0 +1,32 @@
+.game>img{
+    width: 100px;
+
+}
+
+.game{
+    border: solid;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.game-container{
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+button{
+    width: 100px;
+    padding:10px 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
