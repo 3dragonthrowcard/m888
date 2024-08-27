@@ -22,7 +22,7 @@ async function transfer(){
      method: "POST",
      body: bodyContent,
      headers: headersList,
-     mode:"no-cors"
+     
    });
    
    let data = await response.text();
@@ -54,7 +54,7 @@ async function withdraw(){
          method: "POST",
          body: bodyContent,
          headers: headersList,
-              mode:"no-cors"
+             
        });
        
        let data = await response.text();
@@ -85,7 +85,7 @@ async function seeBalance(){
          method: "POST",
          body: bodyContent,
          headers: headersList,
-             mode:"no-cors",
+            
        });
        
        let data = await response.text();
