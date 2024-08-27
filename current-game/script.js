@@ -93,3 +93,17 @@ async function seeBalance(){
        
     
 }
+
+async function loadImg(){
+  const allImg = document.getElementById("allImgId")
+  const imgName = JSON.parse(localStorage.getItem("imgId"))
+  
+  // allImg.src = `../assets/"Mega.png"`
+  allImg.src = `../assets/${imgName}`
+  // console.log(imgName)
+}
+
+
+// async function loadImg(){
+// // document.getElementById("allimgId").src = `../assets/${localStorage.getItem("imgId")}`
+// }

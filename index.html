@@ -37,7 +37,7 @@
           </ul>
         </div>
       </div>
-    <h1>Megaboy Home</h1>
+    <h1>Mega888boy</h1>
 
 
     <button><a href="./register/index.html">Register</a></button>
@@ -67,13 +67,22 @@
 <!-- display 2 games mega 16 and pp 2 -->
 
     <div class="game-container">
-        <div class="game" onclick="launchGame(16)">
+        <div class="game" onclick="launchGame(16,'Mega.png')">
+          <a href="./current-game/index.html">
+
             <img src="./assets/Mega.png" alt="mega888">
             <p><b>Mega888</b></p>
+          </a>
+
         </div>
-        <div class="game" onclick="launchGame(6)">
+        <div class="game" onclick="launchGame(6,'PPLive.png')">
+          <!-- <div class="game" onclick="launchGame({prodId:6,imgId:'PPLive.png'})"> another way -->
+          <a href="/current-game/index.html">
+
             <img src="./assets/PPLive.png" alt="Pragmatic">
             <p><b>Pragmatic</b></p>
+
+          </a>
         </div>
     </div>
 
