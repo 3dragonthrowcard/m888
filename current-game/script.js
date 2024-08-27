@@ -4,7 +4,6 @@ async function transfer(){
     
     let headersList = {
     "Accept": "*/*",
-    "User-Agent": "Thunder Client (https://www.thunderclient.com)",
     "Content-Type": "application/json"
    }
    
@@ -36,7 +35,6 @@ async function withdraw(){
     const amount = document.getElementById("amount").value
     let headersList = {
         "Accept": "*/*",
-        "User-Agent": "Thunder Client (https://www.thunderclient.com)",
         "Content-Type": "application/json"
        }
        
@@ -69,7 +67,6 @@ async function withdraw(){
 async function seeBalance(){
     let headersList = {
         "Accept": "*/*",
-        "User-Agent": "Thunder Client (https://www.thunderclient.com)",
         "Content-Type": "application/json"
        }
        

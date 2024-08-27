@@ -1,5 +1,6 @@
 const crypto = require('crypto');
 
+// create login function
 function createSignature(){
 
     const op = "mega";
@@ -13,7 +14,7 @@ function createSignature(){
     console.log(sign);
 }
 
-
+// create check balance
 function createBalanceSignature(){
  const prod = 16
     const op = "mega";
